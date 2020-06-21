@@ -1,7 +1,7 @@
 # Small-task
 Different screens I made for the application.
 
-Currently using Virstual Studio Code as editor. 
+Currently using Virtual Studio Code as editor. 
 
 ### **HOW TO I RUN IT?**
 You can run it on Expo app on your phone by scanning 
