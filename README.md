@@ -18,4 +18,10 @@ Download the files from github, navigate to the right map in the terminal window
 
 I will also make it as a Snack and link it here later.
 
+### **Button on the screens**
+HomeScreen: "Log in here" leads to LogInScreen
+LogInScreen: "SIGN IN" leads to SignedInScreen, while "Sign Up" goes back to HomeScreen.
+SignedInScreen: "Hi, Katarina!" goes back to LogInScreen (temporarily solution so I can navigate to pevious screen). 
+
+
 
