@@ -46,6 +46,8 @@ class SignedInScreen extends React.Component {
                 marginRight: 0,
                 marginTop: 5,
                 marginBottom: 5,
+                //paddingRight: 5,
+
 
             }}>
                 <Image source={require("./assets/Image36x2.png")} style={styles.adpic} />
@@ -71,6 +73,7 @@ class SignedInScreen extends React.Component {
 
                 <Text style={{ fontSize: 30 }}>{item.title}</Text>
                 <Text>{item.text}</Text>
+
             </View>
 
         )
@@ -136,7 +139,13 @@ class SignedInScreen extends React.Component {
                             itemWidth={285}
                             //itemHeight={400}
                             renderItem={this._renderItem}
-                            inactiveSlideScale={0.8}
+                            inactiveSlideScale={0.85}
+                            //inactiveSlideShift={0}
+                            marginLeft={14}
+                            firstItem={1}
+
+
+
 
                             onSnapToItem={index => this.setState({ activeIndex: index })} />
                     </View>

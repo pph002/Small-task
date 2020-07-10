@@ -284,6 +284,7 @@ export const styles = StyleSheet.create({
         alignSelf: 'flex-end',
         marginTop: 6,
         alignItems: 'center',
+        //marginLeft: 220,
     },
     greenRectangleText: {
         color: '#F7F7F7',
@@ -348,7 +349,7 @@ export const styles = StyleSheet.create({
         fontSize: 15,
         color: '#313349',
         fontWeight: 'bold',
-        marginLeft: 55,
+        marginLeft: 60,
         marginTop: 72,
         letterSpacing: 0.3,
         //lineHeight: 78,
