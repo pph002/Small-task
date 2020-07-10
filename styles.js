@@ -11,6 +11,14 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#F7F7FF',
     },
+    backgroundContainer: {
+        backgroundColor: '#F7F7FF',
+
+    },
+    backgroundContainer2: {
+        backgroundColor: '#F6F7FB',
+
+    },
     welcomeText: {
         fontSize: 28,
         fontWeight: 'bold',
@@ -242,10 +250,14 @@ export const styles = StyleSheet.create({
         color: '#313349',
         marginTop: 15,
         fontWeight: 'bold',
+        letterSpacing: 0.56,
+        //lineHeight: 93,
     },
     welcomeText3_1: {
         color: '#464775',
         fontSize: 14,
+        letterSpacing: 0.28,
+        //lineHeight: 15,
     },
     carouselStyle: {
         marginTop: 14,
@@ -256,7 +268,7 @@ export const styles = StyleSheet.create({
         marginBottom: 21,
 
     },
-    image: {
+    adpic: {
         alignSelf: 'flex-start',
         height: 191,
         width: 270,
@@ -265,7 +277,7 @@ export const styles = StyleSheet.create({
     },
     greenRectangle: {
         borderRadius: 2,
-        height: 20,
+        height: 19,
         width: 57,
         backgroundColor: '#4AB7B2',
         position: 'absolute',
@@ -276,10 +288,13 @@ export const styles = StyleSheet.create({
     greenRectangleText: {
         color: '#F7F7F7',
         fontSize: 8,
-        marginLeft: 3,
-        marginRight: 4,
-        marginTop: 5,
-        marginBottom: 4,
+        //marginLeft: 3,
+        //marginRight: 4,
+        marginTop: 3,
+        //marginBottom: 4,
+        letterSpacing: 0.24,
+        //lineHeight: 25,
+        //justifyContent: 'center',
     },
     infoBox: {
         height: 162,
@@ -312,18 +327,21 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginLeft: 9,
         marginTop: 24,
+        letterSpacing: 0.36,
     },
     descriptionText2: {
         fontSize: 8,
         color: '#33395180',
-        marginLeft: 15,
-        marginTop: 16,
+        marginLeft: 3.02,
+        //marginTop: 16,
+        alignSelf: 'center',
     },
     descriptionText3: {
         fontSize: 8,
         color: '#33395180',
-        marginLeft: 15,
-        marginTop: 10,
+        marginLeft: 3.02,
+        //marginTop: 10,
+        alignSelf: 'center',
 
     },
     wwyText: {
@@ -332,9 +350,11 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginLeft: 55,
         marginTop: 72,
+        letterSpacing: 0.3,
+        //lineHeight: 78,
 
     },
-    image2: {
+    profilepic: {
         borderRadius: 80 / 2,
         width: 80,
         height: 80,
@@ -352,7 +372,7 @@ export const styles = StyleSheet.create({
         height: 66,
         width: 132,
         backgroundColor: '#FFFFFF',
-        //flexDirection: 'row',
+        flexDirection: 'column',
         marginRight: 27,
         borderRadius: 4,
 
@@ -375,6 +395,7 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.29,
         shadowRadius: 6,
         elevation: 7,
+        //alignItems: 'flex-start',
     },
 
     foot: {
@@ -383,6 +404,158 @@ export const styles = StyleSheet.create({
         width: 375,
 
     },
+
+    img1: {
+        height: 35,
+        width: 35,
+        resizeMode: 'contain',
+        marginTop: 10,
+        marginLeft: 27,
+    },
+
+    img2: {
+        height: 30,
+        width: 30,
+        resizeMode: 'contain',
+        //alignSelf: 'center',
+        marginTop: 10,
+        marginLeft: 48,
+    },
+    img3: {
+        height: 36,
+        width: 35,
+        resizeMode: 'contain',
+        marginTop: 7,
+        marginLeft: 27,
+    },
+
+    img4: {
+        height: 30,
+        width: 32,
+        resizeMode: 'contain',
+        marginTop: 18,
+        marginLeft: 47.67,
+    },
+
+    imgPoints1: {
+        fontWeight: 'bold',
+        //alignSelf: 'center',
+        marginLeft: 8,
+        marginTop: 25,
+        fontSize: 10,
+        color: '#464775',
+    },
+    imgPoints2: {
+        fontWeight: 'bold',
+        fontSize: 10,
+        color: '#464775',
+        marginLeft: 3,
+        marginTop: 25,
+    },
+    imgPoints3: {
+        fontWeight: 'bold',
+        fontSize: 11,
+        color: '#464775',
+        marginLeft: 5,
+        marginTop: 22,
+        letterSpacing: 0.22,
+
+    },
+    imgPoints4: {
+        fontWeight: 'bold',
+        fontSize: 10,
+        color: '#464775',
+        marginLeft: 4.71,
+        marginTop: 33,
+        letterSpacing: 0.2,
+
+    },
+    imgText1: {
+        fontSize: 7,
+        letterSpacing: 0.14,
+        alignSelf: 'center',
+        marginTop: 2,
+        //marginRight: 30,
+        //marginRight: 30,
+        //justifyContent: 'center',
+        marginRight: 4,
+        marginBottom: 20,
+        color: '#464775',
+
+
+    },
+    imgText2: {
+        fontSize: 7,
+        letterSpacing: 0.14,
+        alignSelf: 'center',
+        marginTop: 7,
+        //marginRight: 30,
+        //marginRight: 30,
+        //justifyContent: 'center',
+        //marginRight: 50,
+        marginRight: 15,
+        marginBottom: 20,
+        color: '#464775',
+
+
+    },
+    imgText3: {
+        fontSize: 7,
+        letterSpacing: 0.14,
+        alignSelf: 'center',
+        marginTop: 4,
+        //marginRight: 30,
+        //marginRight: 30,
+        //justifyContent: 'center',
+        //marginRight: 50,
+        marginBottom: 20,
+        marginRight: 20,
+        color: '#464775',
+    },
+    imgText4: {
+        fontSize: 7,
+        letterSpacing: 0.14,
+        alignSelf: 'center',
+        //marginTop: 4,
+        //marginRight: 30,
+        //marginRight: 30,
+        //justifyContent: 'center',
+        //marginRight: 50,
+        marginBottom: 10,
+        marginLeft: 5,
+        color: '#464775',
+    },
+
+
+    overviewBox1_1: {
+        flexDirection: 'row',
+    },
+
+    timepic: {
+        height: 20,
+        width: 20,
+        alignSelf: 'center',
+        marginLeft: 12,
+    },
+    timeBox: {
+        flexDirection: 'row',
+        //backgroundColor: '#FFA700',
+        marginTop: 14,
+
+    },
+    locationpic: {
+        width: 22,
+        height: 20,
+        alignSelf: 'center',
+        marginLeft: 11,
+    },
+    locationBox: {
+        flexDirection: 'row',
+        //backgroundColor: '#FFA700',
+        marginTop: 1,
+
+    },
+
 
 
 
