@@ -14,9 +14,9 @@ class HomeScreen extends Component {
     render() {
 
         return (
-            <View style={styles.backgroundContainer}>
-                <View style={styles.mainContainer}>
-                    <Text style={styles.welcomeText}>Welcome to Tryio</Text>
+            <View style={styles.backgroundContainer1}>
+                <View style={styles.mainContainer1}>
+                    <Text style={styles.welcomeText1}>Welcome to Tryio</Text>
 
                     <View style={styles.createContainer}>
                         <Text style={styles.createText}>Create an account</Text>
@@ -35,7 +35,7 @@ class HomeScreen extends Component {
 
                     <View style={styles.facebookContainer}>
                         <View style={styles.fBox}>
-                            <Text style={styles.f}>f</Text>
+                            <Text style={styles.fText}>f</Text>
                         </View>
                         <Text style={styles.facebookText}>Facebook</Text>
                     </View>

@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
 
-    mainContainer: {
+    mainContainer1: {
         //flex: 1,
         width: 375,
         height: 812,
@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#F7F7FF',
     },
-    backgroundContainer: {
+    backgroundContainer1: {
         backgroundColor: '#F7F7FF',
 
     },
@@ -19,12 +19,12 @@ export const styles = StyleSheet.create({
         backgroundColor: '#F6F7FB',
 
     },
-    welcomeText: {
+    welcomeText1: {
         fontSize: 28,
         fontWeight: 'bold',
         fontFamily: 'Open Sans Bold',
         color: '#333951',
-        marginBottom: 35,
+        //marginBottom: 35,
         marginTop: 104,
         lineHeight: 38,
 
@@ -36,7 +36,8 @@ export const styles = StyleSheet.create({
         width: 274,
         justifyContent: 'center',
         alignItems: 'center',
-        marginVertical: 8,
+        //marginVertical: 8,
+        marginTop: 43,
 
     },
     createText: {
@@ -48,8 +49,9 @@ export const styles = StyleSheet.create({
 
     },
     logInContainer: {
-        marginBottom: 16,
+        marginTop: 8,
         flexDirection: 'row',
+
     },
     textToLink: {
         color: '#33395180',
@@ -66,7 +68,8 @@ export const styles = StyleSheet.create({
         fontFamily: 'Open Sans Semibold',
     },
     orLogInContainer: {
-        marginVertical: 10,
+        //marginVertical: 10,
+        marginTop: 26,
         flexDirection: 'row',
         width: 274,
     },
@@ -93,7 +96,8 @@ export const styles = StyleSheet.create({
         paddingLeft: 70,
         alignItems: 'center',
         flexDirection: 'row',
-        marginVertical: 9,
+        //marginVertical: 9,
+        marginTop: 19,
 
     },
     facebookText: {
@@ -104,20 +108,27 @@ export const styles = StyleSheet.create({
         lineHeight: 22,
         fontFamily: 'Avenir',
     },
-    f: {
+    fText: {
         fontSize: 24,
         fontWeight: 'bold',
-        fontFamily: 'Avenir',
+        //fontFamily: 'Avenir',
         color: '#4064B4',
-        lineHeight: 28,
-        height: 24,
-        marginLeft: 10,
+        lineHeight: 30,
+        //height: 33,
+        //width: 8,
+        marginLeft: 8,
+        position: "absolute",
+
+
+
     },
     fBox: {
         backgroundColor: '#FFFFFF',
         borderRadius: 2,
-        height: 21,
-        width: 23,
+        height: 23,
+        width: 21,
+        paddingBottom: 4,
+
     },
 
     linkedinContainer: {
@@ -128,7 +139,8 @@ export const styles = StyleSheet.create({
         paddingLeft: 70,
         alignItems: 'center',
         flexDirection: 'row',
-        marginVertical: 9,
+        //marginVertical: 9,
+        marginTop: 18,
 
     },
     linkedinText: {
@@ -145,12 +157,13 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontFamily: 'Avenir',
         color: '#0277B5',
+        //lineHeight: 23,
     },
     inBox: {
         backgroundColor: '#FFFFFF',
         borderRadius: 2,
-        height: 21,
-        width: 23,
+        height: 23,
+        width: 21,
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -160,22 +173,49 @@ export const styles = StyleSheet.create({
         lineHeight: 27,
         fontFamily: 'Open Sans Bold',
         color: '#333951',
-        marginBottom: 25,
+        //marginBottom: 25,
         marginTop: 128,
 
     },
-    userPassContainer: {
+    usernameContainer: {
         width: 277,
         height: 41,
         backgroundColor: '#FFFFFF',
         borderColor: '#5656B7',
         borderWidth: 1,
         borderRadius: 6,
-        paddingLeft: 15,
+        paddingLeft: 17.21,
+        marginTop: 37,
 
         alignItems: 'center',
         flexDirection: 'row',
-        marginVertical: 12,
+        //marginVertical: 12,
+    },
+    passwordContainer: {
+        width: 277,
+        height: 41,
+        backgroundColor: '#FFFFFF',
+        borderColor: '#5656B7',
+        borderWidth: 1,
+        borderRadius: 6,
+        paddingLeft: 17.21,
+        marginTop: 24,
+
+        alignItems: 'center',
+        flexDirection: 'row',
+        //marginVertical: 12,
+    },
+    usernamePic: {
+        height: 13.52,
+        width: 13.32,
+        resizeMode: 'contain',
+        //color: '#6C6CE5',
+    },
+    passwordPic: {
+        height: 16.7,
+        width: 15.91,
+        resizeMode: 'contain',
+        //color: '#6C6CE5',
     },
     usernameAndPassword: {
         color: '#33395180',
@@ -186,8 +226,23 @@ export const styles = StyleSheet.create({
     },
     termsConditionsContainer: {
         flexDirection: 'row',
-        marginVertical: 9,
-        marginRight: 20,
+        //marginVertical: 9,
+        marginRight: 26,
+        marginTop: 28,
+    },
+    readAndAgree: {
+        color: '#33395180',
+        fontSize: 10,
+        fontWeight: 'bold',
+        lineHeight: 14,
+        fontFamily: 'Open Sans Semibold',
+    },
+    termsAndConditionsLink: {
+        color: '#6C6CE5',
+        fontSize: 10,
+        fontWeight: 'bold',
+        lineHeight: 14,
+        fontFamily: 'Open Sans Semibold',
     },
 
     linearGradient: {
@@ -196,6 +251,7 @@ export const styles = StyleSheet.create({
         height: 33,
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: 9,
     },
 
     signInText: {
@@ -207,7 +263,8 @@ export const styles = StyleSheet.create({
         fontFamily: 'Open Sans Semibold',
     },
     signUpContainer: {
-        marginVertical: 12,
+        //marginVertical: 12,
+        marginTop: 12,
     },
 
     textToSignUp: {
