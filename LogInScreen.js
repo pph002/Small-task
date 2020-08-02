@@ -31,7 +31,7 @@ class LogInScreen extends Component {
 
                     <View style={styles.termsConditionsContainer}>
                         <Icon name="check-box-outline" size={15} color="#6C6CE5" underlayColor="#33395180" />
-                        <Text style={styles.readAndAgree}>   I read and agree <Text style={styles.termsAndConditionsLink}>Terms & Conditions</Text></Text>
+                        <Text style={styles.readAndAgree}>I read and agree <Text style={styles.termsAndConditionsLink}>Terms & Conditions</Text></Text>
                     </View>
 
 

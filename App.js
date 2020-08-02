@@ -47,6 +47,7 @@ function CreateHomeStack() {
 
 
 export default function App() {
+
   const [isLoadingComplete, setLoadingComplete] = React.useState(false);
 
   React.useEffect(() => {
@@ -54,10 +55,13 @@ export default function App() {
       try {
         // Loading fonts
         await Font.loadAsync({
-          'Open Sans Bold': require('./assets/OpenSans-Bold.ttf'),
-          'Arial rounded mt bold': require('./assets/arlrdbd.ttf'),
-          'Avenir': require('./assets/Avenir-Roman.otf'),
-          'Open Sans Semibold': require('./assets/open-sans.semibold.ttf'),
+          'Open Sans Bold': require('./assets/fonts/OpenSans-Bold.ttf'),
+          'Open Sans Semibold': require('./assets/fonts/OpenSans-SemiBold.ttf'),
+          'Open Sans Regular': require('./assets/fonts/OpenSans-Regular.ttf'),
+          'Avenir Heavy': require('./assets/fonts/Avenir-Heavy.ttf'),
+          'Avenir Black': require('./assets/fonts/Avenir-Black.ttf'),
+          'Arial Rounded MT Bold': require('./assets/fonts/arlrdbd.ttf'),
+          'Helvetica': require('./assets/fonts/Helvetica.ttf'),
         });
       }
       catch (e) {
@@ -81,6 +85,7 @@ export default function App() {
     );
 
   }
+
 
 }
 

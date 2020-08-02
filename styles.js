@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
     },
     welcomeText1: {
         fontSize: 28,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         fontFamily: 'Open Sans Bold',
         color: '#333951',
         //marginBottom: 35,
@@ -43,9 +43,9 @@ export const styles = StyleSheet.create({
     createText: {
         fontSize: 15,
         color: '#FEFEFE',
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         lineHeight: 17,
-        fontFamily: 'Arial rounded mt bold',
+        fontFamily: 'Arial Rounded MT Bold',
 
     },
     logInContainer: {
@@ -56,19 +56,16 @@ export const styles = StyleSheet.create({
     textToLink: {
         color: '#33395180',
         fontSize: 10,
-        fontWeight: 'bold',
         lineHeight: 14,
         fontFamily: 'Open Sans Semibold',
     },
     linkToText: {
         color: '#6C6CE5',
         fontSize: 10,
-        fontWeight: 'bold',
         lineHeight: 14,
         fontFamily: 'Open Sans Semibold',
     },
     orLogInContainer: {
-        //marginVertical: 10,
         marginTop: 26,
         flexDirection: 'row',
         width: 274,
@@ -78,7 +75,6 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 10,
         fontSize: 11,
         color: '#313349',
-        fontWeight: 'bold',
         lineHeight: 15,
         fontFamily: 'Open Sans Semibold',
     },
@@ -103,23 +99,18 @@ export const styles = StyleSheet.create({
     facebookText: {
         color: '#F7F7F7',
         fontSize: 16,
-        fontWeight: 'bold',
         marginLeft: 29,
-        lineHeight: 22,
-        fontFamily: 'Avenir',
+        fontFamily: 'Avenir Heavy',
+
     },
     fText: {
         fontSize: 24,
-        fontWeight: 'bold',
-        //fontFamily: 'Avenir',
+
+        fontFamily: 'Avenir Black',
         color: '#4064B4',
-        lineHeight: 30,
-        //height: 33,
-        //width: 8,
-        marginLeft: 8,
+        lineHeight: 33,
+        marginLeft: 7,
         position: "absolute",
-
-
 
     },
     fBox: {
@@ -146,16 +137,18 @@ export const styles = StyleSheet.create({
     linkedinText: {
         color: '#F7F7F7',
         fontSize: 16,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         marginLeft: 29,
         marginRight: 4,
-        lineHeight: 22,
-        fontFamily: 'Avenir',
+        //lineHeight: 25,
+        fontFamily: 'Avenir Heavy',
+        //marginTop: 10,
+        //alignSelf: 'center',
     },
     inText: {
         fontSize: 17,
-        fontWeight: 'bold',
-        fontFamily: 'Avenir',
+        //fontWeight: 'bold',
+        fontFamily: 'Avenir Black',
         color: '#0277B5',
         //lineHeight: 23,
     },
@@ -169,7 +162,7 @@ export const styles = StyleSheet.create({
     },
     welcomeText2: {
         fontSize: 20,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         lineHeight: 27,
         fontFamily: 'Open Sans Bold',
         color: '#333951',
@@ -220,27 +213,26 @@ export const styles = StyleSheet.create({
     usernameAndPassword: {
         color: '#33395180',
         fontSize: 11,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         lineHeight: 15,
         fontFamily: 'Open Sans Semibold'
     },
     termsConditionsContainer: {
         flexDirection: 'row',
         //marginVertical: 9,
-        marginRight: 26,
+        marginRight: 20,
         marginTop: 28,
     },
     readAndAgree: {
         color: '#33395180',
         fontSize: 10,
-        fontWeight: 'bold',
+        marginLeft: 10,
         lineHeight: 14,
         fontFamily: 'Open Sans Semibold',
     },
     termsAndConditionsLink: {
         color: '#6C6CE5',
         fontSize: 10,
-        fontWeight: 'bold',
         lineHeight: 14,
         fontFamily: 'Open Sans Semibold',
     },
@@ -256,11 +248,11 @@ export const styles = StyleSheet.create({
 
     signInText: {
         fontSize: 10,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         color: '#FFFFFF',
         letterSpacing: 0.2,
         lineHeight: 14,
-        fontFamily: 'Open Sans Semibold',
+        fontFamily: 'Arial Rounded MT Bold',
     },
     signUpContainer: {
         //marginVertical: 12,
@@ -269,7 +261,6 @@ export const styles = StyleSheet.create({
 
     textToSignUp: {
         fontSize: 9,
-        fontWeight: 'bold',
         lineHeight: 13,
         color: '#33395180',
         fontFamily: 'Open Sans Semibold',
@@ -277,7 +268,6 @@ export const styles = StyleSheet.create({
     },
     signUpLink: {
         fontSize: 9,
-        fontWeight: 'bold',
         lineHeight: 13,
         color: '#6C6CE5',
         fontFamily: 'Open Sans Semibold',
@@ -299,22 +289,22 @@ export const styles = StyleSheet.create({
         marginTop: 54,
         marginBottom: 32,
         width: 291,
-
     },
 
     welcomeText3: {
         fontSize: 28,
         color: '#313349',
         marginTop: 15,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         letterSpacing: 0.56,
-        //lineHeight: 93,
+        fontFamily: 'Arial Rounded MT Bold',
     },
     welcomeText3_1: {
         color: '#464775',
         fontSize: 14,
         letterSpacing: 0.28,
         //lineHeight: 15,
+        fontFamily: 'Open Sans Regular',
     },
     carouselStyle: {
         marginTop: 14,
@@ -353,6 +343,7 @@ export const styles = StyleSheet.create({
         letterSpacing: 0.24,
         //lineHeight: 25,
         //justifyContent: 'center',
+        fontFamily: 'Arial Rounded MT Bold',
     },
     infoBox: {
         height: 162,
@@ -377,15 +368,17 @@ export const styles = StyleSheet.create({
     },
     joinText: {
         fontSize: 18,
-        fontWeight: "bold",
+        //fontWeight: "bold",
         color: '#FFFFFF',
+        fontFamily: 'Arial Rounded MT Bold',
     },
     descriptionText1: {
         fontSize: 18,
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         marginLeft: 9,
         marginTop: 24,
         letterSpacing: 0.36,
+        fontFamily: 'Arial Rounded MT Bold',
     },
     descriptionText2: {
         fontSize: 8,
@@ -393,6 +386,7 @@ export const styles = StyleSheet.create({
         marginLeft: 3.02,
         //marginTop: 16,
         alignSelf: 'center',
+        fontFamily: 'Open Sans Semibold',
     },
     descriptionText3: {
         fontSize: 8,
@@ -400,16 +394,7 @@ export const styles = StyleSheet.create({
         marginLeft: 3.02,
         //marginTop: 10,
         alignSelf: 'center',
-
-    },
-    wwyText: {
-        fontSize: 15,
-        color: '#313349',
-        fontWeight: 'bold',
-        marginLeft: 60,
-        marginTop: 72,
-        letterSpacing: 0.3,
-        //lineHeight: 78,
+        fontFamily: 'Open Sans Semibold',
 
     },
     profilepic: {
@@ -496,36 +481,40 @@ export const styles = StyleSheet.create({
     },
 
     imgPoints1: {
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         //alignSelf: 'center',
         marginLeft: 8,
         marginTop: 25,
         fontSize: 10,
         color: '#464775',
+        fontFamily: 'Arial Rounded MT Bold',
     },
     imgPoints2: {
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         fontSize: 10,
         color: '#464775',
         marginLeft: 3,
         marginTop: 25,
+        fontFamily: 'Arial Rounded MT Bold',
     },
     imgPoints3: {
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         fontSize: 11,
         color: '#464775',
         marginLeft: 5,
         marginTop: 22,
         letterSpacing: 0.22,
+        fontFamily: 'Arial Rounded MT Bold',
 
     },
     imgPoints4: {
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
         fontSize: 10,
         color: '#464775',
         marginLeft: 4.71,
         marginTop: 33,
         letterSpacing: 0.2,
+        fontFamily: 'Arial Rounded MT Bold',
 
     },
     imgText1: {
@@ -539,6 +528,7 @@ export const styles = StyleSheet.create({
         marginRight: 4,
         marginBottom: 20,
         color: '#464775',
+        fontFamily: 'Helvetica',
 
 
     },
@@ -554,6 +544,7 @@ export const styles = StyleSheet.create({
         marginRight: 15,
         marginBottom: 20,
         color: '#464775',
+        fontFamily: 'Helvetica',
 
 
     },
@@ -569,6 +560,7 @@ export const styles = StyleSheet.create({
         marginBottom: 20,
         marginRight: 20,
         color: '#464775',
+        fontFamily: 'Helvetica',
     },
     imgText4: {
         fontSize: 7,
@@ -582,11 +574,23 @@ export const styles = StyleSheet.create({
         marginBottom: 10,
         marginLeft: 5,
         color: '#464775',
+        fontFamily: 'Helvetica',
     },
 
 
     overviewBox1_1: {
         flexDirection: 'row',
+    },
+
+    wwyText: {
+        fontSize: 15,
+        color: '#313349',
+        fontWeight: 'bold',
+        marginLeft: 60,
+        marginTop: 72,
+        letterSpacing: 0.3,
+        //lineHeight: 78,
+        fontFamily: 'Arial Rounded MT Bold',
     },
 
     timepic: {
