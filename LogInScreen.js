@@ -6,9 +6,7 @@ import { Text, View, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { LinearGradient } from 'expo-linear-gradient';
 import { styles } from './styles';
-import HomeScreen from './HomeScreen';
 
-import SignedInScreen from './SignedInScreen';
 
 class LogInScreen extends Component {
     render() {
@@ -20,13 +18,13 @@ class LogInScreen extends Component {
                     <View style={styles.usernameContainer}>
                         <Image source={require("./assets/Username.png")} style={styles.usernamePic} />
 
-                        <Text style={styles.usernameAndPassword}>      Username</Text>
+                        <Text style={styles.usernameAndPassword}>Username</Text>
                     </View>
 
                     <View style={styles.passwordContainer}>
                         <Image source={require("./assets/Password.png")} style={styles.passwordPic} />
 
-                        <Text style={styles.usernameAndPassword}>      Password</Text>
+                        <Text style={styles.usernameAndPassword}>Password</Text>
                     </View>
 
                     <View style={styles.termsConditionsContainer}>

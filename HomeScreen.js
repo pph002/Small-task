@@ -7,8 +7,6 @@ import { Text, View } from 'react-native';
 //import { LinearGradient } from 'expo-linear-gradient';
 import { styles } from './styles';
 
-import LogInScreen from './LogInScreen';
-import SignedInScreen from './SignedInScreen';
 
 class HomeScreen extends Component {
     render() {

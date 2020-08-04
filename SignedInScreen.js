@@ -6,11 +6,8 @@ import { Text, View, Image } from 'react-native';
 //import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 //import { LinearGradient } from 'expo-linear-gradient';
 import { styles } from './styles';
-import HomeScreen from './HomeScreen';
-import LogInScreen from './LogInScreen';
+
 import Carousel from 'react-native-snap-carousel';
-//import Star from './assets/Star.png';
-//import SvgTest from './svgs/SvgTest';
 
 
 

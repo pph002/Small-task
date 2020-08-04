@@ -202,24 +202,24 @@ export const styles = StyleSheet.create({
         height: 13.52,
         width: 13.32,
         resizeMode: 'contain',
+        marginRight: 20,
         //color: '#6C6CE5',
     },
     passwordPic: {
         height: 16.7,
         width: 15.91,
         resizeMode: 'contain',
+        marginRight: 20,
         //color: '#6C6CE5',
     },
     usernameAndPassword: {
         color: '#33395180',
         fontSize: 11,
-        //fontWeight: 'bold',
         lineHeight: 15,
         fontFamily: 'Open Sans Semibold'
     },
     termsConditionsContainer: {
         flexDirection: 'row',
-        //marginVertical: 9,
         marginRight: 20,
         marginTop: 28,
     },
@@ -248,14 +248,12 @@ export const styles = StyleSheet.create({
 
     signInText: {
         fontSize: 10,
-        //fontWeight: 'bold',
         color: '#FFFFFF',
         letterSpacing: 0.2,
         lineHeight: 14,
         fontFamily: 'Arial Rounded MT Bold',
     },
     signUpContainer: {
-        //marginVertical: 12,
         marginTop: 12,
     },
 
@@ -295,7 +293,6 @@ export const styles = StyleSheet.create({
         fontSize: 28,
         color: '#313349',
         marginTop: 15,
-        //fontWeight: 'bold',
         letterSpacing: 0.56,
         fontFamily: 'Arial Rounded MT Bold',
     },
@@ -303,7 +300,6 @@ export const styles = StyleSheet.create({
         color: '#464775',
         fontSize: 14,
         letterSpacing: 0.28,
-        //lineHeight: 15,
         fontFamily: 'Open Sans Regular',
     },
     carouselStyle: {
@@ -331,18 +327,12 @@ export const styles = StyleSheet.create({
         alignSelf: 'flex-end',
         marginTop: 6,
         alignItems: 'center',
-        //marginLeft: 220,
+        justifyContent: 'center',
     },
     greenRectangleText: {
         color: '#F7F7F7',
-        fontSize: 8,
-        //marginLeft: 3,
-        //marginRight: 4,
-        marginTop: 3,
-        //marginBottom: 4,
+        fontSize: 7,
         letterSpacing: 0.24,
-        //lineHeight: 25,
-        //justifyContent: 'center',
         fontFamily: 'Arial Rounded MT Bold',
     },
     infoBox: {
@@ -368,13 +358,11 @@ export const styles = StyleSheet.create({
     },
     joinText: {
         fontSize: 18,
-        //fontWeight: "bold",
         color: '#FFFFFF',
         fontFamily: 'Arial Rounded MT Bold',
     },
     descriptionText1: {
         fontSize: 18,
-        //fontWeight: 'bold',
         marginLeft: 9,
         marginTop: 24,
         letterSpacing: 0.36,
@@ -384,7 +372,6 @@ export const styles = StyleSheet.create({
         fontSize: 8,
         color: '#33395180',
         marginLeft: 3.02,
-        //marginTop: 16,
         alignSelf: 'center',
         fontFamily: 'Open Sans Semibold',
     },
@@ -392,7 +379,6 @@ export const styles = StyleSheet.create({
         fontSize: 8,
         color: '#33395180',
         marginLeft: 3.02,
-        //marginTop: 10,
         alignSelf: 'center',
         fontFamily: 'Open Sans Semibold',
 
@@ -406,7 +392,6 @@ export const styles = StyleSheet.create({
     overviewContainer: {
         flexDirection: 'row',
         alignSelf: 'center',
-        //backgroundColor: '#33395180',
         width: 291,
         height: 66,
         marginBottom: 11,
@@ -430,15 +415,12 @@ export const styles = StyleSheet.create({
         height: 66,
         width: 132,
         backgroundColor: '#FFFFFF',
-        //flexDirection: 'row',
-        //justifyContent: 'flex-start',
         borderRadius: 4,
         shadowColor: "#5656B75C",
         shadowOffset: { width: 0, height: 3, },
         shadowOpacity: 0.29,
         shadowRadius: 6,
         elevation: 7,
-        //alignItems: 'flex-start',
     },
 
     foot: {
@@ -460,7 +442,6 @@ export const styles = StyleSheet.create({
         height: 30,
         width: 30,
         resizeMode: 'contain',
-        //alignSelf: 'center',
         marginTop: 10,
         marginLeft: 48,
     },
@@ -481,8 +462,6 @@ export const styles = StyleSheet.create({
     },
 
     imgPoints1: {
-        //fontWeight: 'bold',
-        //alignSelf: 'center',
         marginLeft: 8,
         marginTop: 25,
         fontSize: 10,
@@ -490,7 +469,7 @@ export const styles = StyleSheet.create({
         fontFamily: 'Arial Rounded MT Bold',
     },
     imgPoints2: {
-        //fontWeight: 'bold',
+
         fontSize: 10,
         color: '#464775',
         marginLeft: 3,
@@ -498,7 +477,7 @@ export const styles = StyleSheet.create({
         fontFamily: 'Arial Rounded MT Bold',
     },
     imgPoints3: {
-        //fontWeight: 'bold',
+
         fontSize: 11,
         color: '#464775',
         marginLeft: 5,
@@ -508,7 +487,7 @@ export const styles = StyleSheet.create({
 
     },
     imgPoints4: {
-        //fontWeight: 'bold',
+
         fontSize: 10,
         color: '#464775',
         marginLeft: 4.71,
@@ -522,9 +501,6 @@ export const styles = StyleSheet.create({
         letterSpacing: 0.14,
         alignSelf: 'center',
         marginTop: 2,
-        //marginRight: 30,
-        //marginRight: 30,
-        //justifyContent: 'center',
         marginRight: 4,
         marginBottom: 20,
         color: '#464775',
@@ -537,10 +513,6 @@ export const styles = StyleSheet.create({
         letterSpacing: 0.14,
         alignSelf: 'center',
         marginTop: 7,
-        //marginRight: 30,
-        //marginRight: 30,
-        //justifyContent: 'center',
-        //marginRight: 50,
         marginRight: 15,
         marginBottom: 20,
         color: '#464775',
@@ -553,10 +525,6 @@ export const styles = StyleSheet.create({
         letterSpacing: 0.14,
         alignSelf: 'center',
         marginTop: 4,
-        //marginRight: 30,
-        //marginRight: 30,
-        //justifyContent: 'center',
-        //marginRight: 50,
         marginBottom: 20,
         marginRight: 20,
         color: '#464775',
@@ -566,11 +534,6 @@ export const styles = StyleSheet.create({
         fontSize: 7,
         letterSpacing: 0.14,
         alignSelf: 'center',
-        //marginTop: 4,
-        //marginRight: 30,
-        //marginRight: 30,
-        //justifyContent: 'center',
-        //marginRight: 50,
         marginBottom: 10,
         marginLeft: 5,
         color: '#464775',
@@ -589,7 +552,6 @@ export const styles = StyleSheet.create({
         marginLeft: 60,
         marginTop: 72,
         letterSpacing: 0.3,
-        //lineHeight: 78,
         fontFamily: 'Arial Rounded MT Bold',
     },
 
@@ -601,7 +563,6 @@ export const styles = StyleSheet.create({
     },
     timeBox: {
         flexDirection: 'row',
-        //backgroundColor: '#FFA700',
         marginTop: 14,
 
     },
@@ -613,7 +574,6 @@ export const styles = StyleSheet.create({
     },
     locationBox: {
         flexDirection: 'row',
-        //backgroundColor: '#FFA700',
         marginTop: 1,
 
     },
